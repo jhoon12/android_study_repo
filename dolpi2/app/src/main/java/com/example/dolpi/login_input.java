@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class login_input extends AppCompatActivity {
+public class login_input extends main_baar_delete {
     Button login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

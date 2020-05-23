@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class signup extends AppCompatActivity {
+public class signup extends main_baar_delete {
     Button signup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

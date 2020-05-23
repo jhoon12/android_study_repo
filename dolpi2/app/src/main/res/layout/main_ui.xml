@@ -20,26 +20,23 @@
             android:layout_marginLeft="15dp"
             android:background="@drawable/dolpi2"></ImageView>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:textSize="20sp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
-            android:textColor="#FFFFFF"
-            android:text="테스트를 진행하고 당신과 맞는 사람을 만나보세요!"></TextView>
+           android:background="@drawable/text1"></TextView>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:layout_weightSum="3"
+            android:weightSum="3"
             >
+
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="36dp"
                 android:layout_weight="1"
-                android:text="테스트 및 검사"
-                android:background="@drawable/semi_circle">
+                android:background="@drawable/semi_circle"
+                android:text="테스트 및 검사">
 
             </Button>
             <Button
@@ -63,74 +60,112 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weightsum="2"
+        android:weightSum="2"
         android:orientation="horizontal">
 
-        <FrameLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"
-            >
+
+
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:background="@drawable/mbti"></Button>
 
-                android:background="@drawable/button_custom"
-                android:text="MBTI 성격테스트"
-                android:textSize="40sp"
-                ></Button>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:Text="사주로보는 인생 "></TextView>
 
-        </FrameLayout>
+
 
         <Button
             android:id="@+id/hobby"
             android:layout_width="0dp"
-            android:layout_height="190dp"
-            android:background="@drawable/button_custom"
+            android:layout_height="250dp"
+            android:background="@drawable/hobby"
             android:layout_weight="1"
-            android:text="취미"
-            android:textSize="40dp"
+
             ></Button>
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weightsum="2"
+        android:weightSum="2"
         android:orientation="horizontal">
-        <FrameLayout
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"
-            >
-         <Button
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
 
-            android:background="@drawable/button_custom"
-            android:text="사주 사주로 보는 인생"
-            android:textSize="40sp"
-            ></Button>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:Text="사주로보는 인생  "></TextView>
 
-        </FrameLayout>
         <Button
             android:layout_width="0dp"
-            android:layout_height="190dp"
-            android:background="@drawable/button_custom"
+            android:layout_height="250dp"
             android:layout_weight="1"
-            android:text="별자리"
-            android:textSize="40dp"
+            android:background="@drawable/lucky"></Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:background="@drawable/star"
             ></Button>
 
+
     </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:background="@drawable/main_bar_design"
+    android:layout_marginBottom="-10dp"
+    >
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:background="@drawable/go_to_main"></Button>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+
+
+            android:background="@drawable/friends"></Button>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingBottom="5dp"
+       >
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_gravity="center"
+
+            android:layout_height="40dp"
+            android:background="@drawable/message"></Button>
+
+    </FrameLayout>
+
+
+</LinearLayout>
+
+
 
 
 </LinearLayout>

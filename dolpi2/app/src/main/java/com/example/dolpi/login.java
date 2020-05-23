@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 
-public class login extends AppCompatActivity {
+public class login extends main_baar_delete {
     Button login, signup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
